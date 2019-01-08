@@ -89,4 +89,4 @@ export default class UnityView extends React.Component<UnityViewProps> {
     }
 }
 
-const NativeUnityView = requireNativeComponent<UnityViewProps>('UnityView', UnityView);
+const NativeUnityView = requireNativeComponent('UnityView');
