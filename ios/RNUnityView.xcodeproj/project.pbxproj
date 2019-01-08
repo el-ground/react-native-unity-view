@@ -6,13 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		1B2EDAA421C2A43800680B2F /* UnityNativeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EDAA321C2A43800680B2F /* UnityNativeModule.m */; };
-		1B593B7D2052A50D00CBB34F /* RNUnityViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B593B772052A50C00CBB34F /* RNUnityViewManager.m */; };
-		1B593B7E2052A50D00CBB34F /* UnityUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B593B792052A50C00CBB34F /* UnityUtils.mm */; };
-		1B593B7F2052A50D00CBB34F /* RNUnityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B593B7A2052A50C00CBB34F /* RNUnityView.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		1B593B5D2052A47600CBB34F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -26,15 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B2EDAA321C2A43800680B2F /* UnityNativeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnityNativeModule.m; sourceTree = "<group>"; };
-		1B2EDAA521C2A48E00680B2F /* UnityNativeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityNativeModule.h; sourceTree = "<group>"; };
-		1B593B5F2052A47600CBB34F /* libRNUnityView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNUnityView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B593B772052A50C00CBB34F /* RNUnityViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUnityViewManager.m; sourceTree = "<group>"; };
-		1B593B782052A50C00CBB34F /* RNUnityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUnityView.h; sourceTree = "<group>"; };
-		1B593B792052A50C00CBB34F /* UnityUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityUtils.mm; sourceTree = "<group>"; };
-		1B593B7A2052A50C00CBB34F /* RNUnityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNUnityView.m; sourceTree = "<group>"; };
-		1B593B7B2052A50D00CBB34F /* RNUnityViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNUnityViewManager.h; sourceTree = "<group>"; };
-		1B593B7C2052A50D00CBB34F /* UnityUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityUtils.h; sourceTree = "<group>"; };
+		67D4F0F321E32D3B00571EC1 /* RNUnityView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RNUnityView; sourceTree = "<group>"; };
+		67D4F13521E3323300571EC1 /* libRNUnityView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNUnityView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,24 +37,9 @@
 		1B593B562052A47600CBB34F = {
 			isa = PBXGroup;
 			children = (
-				1B2EDAA521C2A48E00680B2F /* UnityNativeModule.h */,
-				1B2EDAA321C2A43800680B2F /* UnityNativeModule.m */,
-				1B593B782052A50C00CBB34F /* RNUnityView.h */,
-				1B593B7A2052A50C00CBB34F /* RNUnityView.m */,
-				1B593B7B2052A50D00CBB34F /* RNUnityViewManager.h */,
-				1B593B772052A50C00CBB34F /* RNUnityViewManager.m */,
-				1B593B7C2052A50D00CBB34F /* UnityUtils.h */,
-				1B593B792052A50C00CBB34F /* UnityUtils.mm */,
-				1B593B602052A47600CBB34F /* Products */,
+				67D4F0F321E32D3B00571EC1 /* RNUnityView */,
+				67D4F13521E3323300571EC1 /* libRNUnityView.a */,
 			);
-			sourceTree = "<group>";
-		};
-		1B593B602052A47600CBB34F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1B593B5F2052A47600CBB34F /* libRNUnityView.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,7 +59,7 @@
 			);
 			name = RNUnityView;
 			productName = RNUnityView;
-			productReference = 1B593B5F2052A47600CBB34F /* libRNUnityView.a */;
+			productReference = 67D4F13521E3323300571EC1 /* libRNUnityView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +85,7 @@
 				en,
 			);
 			mainGroup = 1B593B562052A47600CBB34F;
-			productRefGroup = 1B593B602052A47600CBB34F /* Products */;
+			productRefGroup = 1B593B562052A47600CBB34F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -128,10 +99,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B593B7D2052A50D00CBB34F /* RNUnityViewManager.m in Sources */,
-				1B593B7F2052A50D00CBB34F /* RNUnityView.m in Sources */,
-				1B593B7E2052A50D00CBB34F /* UnityUtils.mm in Sources */,
-				1B2EDAA421C2A43800680B2F /* UnityNativeModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

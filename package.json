@@ -14,6 +14,7 @@
   ],
   "author": "xzper",
   "license": "MIT",
+  "description" : "Unity3d as a component in React Native",
   "devDependencies": {
     "@types/prop-types": "^15.5.2",
     "@types/react": "^16.0.36",
